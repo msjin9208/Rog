@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Lobby : SceneBase
 {
+    GameObject _player;
+    GameObject _playerPosition;
 
     public override void InitScene()
     {
         base.InitScene();
         _sceneName = SCENENAME.Lobby;
+        _player = GameManager.Instance.PLAYER;
+        _player.SetActive(true);   
     }
 
     public override void EnterScene()
@@ -19,9 +23,15 @@ public class Lobby : SceneBase
         
         base.EnterScene();
     }
+    
 
     public override void ExitScene()
     {
         base.ExitScene();
+    }
+
+    public override void ResourceLoad()
+    {
+        base.ResourceLoad();
     }
 }

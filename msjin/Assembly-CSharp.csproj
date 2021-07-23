@@ -56,18 +56,49 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\Manager\GameManager.cs" />
-    <Compile Include="Assets\Script\Scene\Lobby.cs" />
-    <Compile Include="Assets\Script\Manager\UIManager.cs" />
-    <Compile Include="Assets\Script\UIAnimation\UIAnimation.cs" />
-    <Compile Include="Assets\Script\Manager\SceneMgr.cs" />
     <Compile Include="Assets\Script\Scene\SceneBase.cs" />
-    <Compile Include="Assets\Script\UI\GameSceneUI.cs" />
-    <Compile Include="Assets\Script\UI\LobbySceneUI.cs" />
     <Compile Include="Assets\Script\Scene\Dungeon.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_EyeSet.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sprite_Editor(Beta)\Script\SpriteEyeSync.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_SpriteButtonST.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_Prefabs.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_Manager.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sample\Script\PlayerManager.cs" />
+    <Compile Include="Assets\Script\SceneUI\StoreSceneUI.cs" />
+    <Compile Include="Assets\Script\Manager\GameManager.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sprite_Editor(Beta)\Script\SPUM_SpriteEditManager.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sprite_Editor(Beta)\Script\SpriteSync.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\Ect\SpritePos.cs" />
+    <Compile Include="Assets\Script\Scene\Inventory.cs" />
+    <Compile Include="Assets\Script\SceneUI\DungeonSceneUI.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_SpriteList.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_Button.cs" />
+    <Compile Include="Assets\Script\Manager\SceneMgr.cs" />
+    <Compile Include="Assets\Script\SceneUI\GameSceneUI.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_PackageButton.cs" />
     <Compile Include="Assets\Script\Scene\GameStart.cs" />
+    <Compile Include="Assets\Script\Manager\UIManager.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sample\Script\PlayerObj.cs" />
+    <Compile Include="Assets\Script\UIAnimation\UIAnimation.cs" />
+    <Compile Include="Assets\Script\SceneUI\InventorySceneUI.cs" />
+    <Compile Include="Assets\Script\SceneUI\LobbySceneUI.cs" />
+    <Compile Include="Assets\Resource\SPUM\Sprite_Editor(Beta)\Script\SpriteSyncManager.cs" />
+    <Compile Include="Assets\Script\SceneUI\BaseUI.cs" />
+    <Compile Include="Assets\Script\Scene\Lobby.cs" />
+    <Compile Include="Assets\Resource\SPUM\SoonsoonData\SoonsoonData.cs" />
+    <Compile Include="Assets\Resource\SPUM\Script\SPUM_PreviewItem.cs" />
+    <Compile Include="Assets\Script\Unit\UnitBase.cs" />
+    <Compile Include="Assets\Script\Unit\Character\PlayerBase.cs" />
+    <Compile Include="Assets\Script\Scene\Store.cs" />
+    <Compile Include="Assets\Script\Unit\Character\PlayerEquipment.cs" />
+    <Compile Include="Assets\Script\Manager\ResourceManager.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Resource\SimplePixelUI\fonts\Font2\license.txt" />
+     <None Include="Assets\Resource\SimplePixelUI\fonts\Font1\license.txt" />
+     <None Include="Assets\Resource\SPUM\ReadMe - 1.4.2.txt" />
+     <None Include="Assets\Resource\SimplePixelUI\fonts\Font1\readme.txt" />
+     <None Include="Assets\Resource\SimplePixelUI\fonts\Font2\readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2019.4.13f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public enum SCENENAME
 {
-    GameStart,
+    Game,
     Lobby,
     Dungeon,
     Inventory,
@@ -34,14 +34,18 @@ public class SceneBase
 
     public virtual void EnterScene()
     {
-        UIAnimation.Instance.FadeIn();
+        
     }
     public virtual void ExitScene()
     {
         UIAnimation.Instance.FadeOut();
     }
-    public SCENENAME Scene()
+    public virtual SCENENAME Scene()
     {
         return _sceneName;
+    }
+    public virtual void ResourceLoad()
+    {
+        UIAnimation.Instance.FadeIn();
     }
 }

@@ -23,6 +23,4 @@ public class Dungeon : SceneBase
     {
         base.ExitScene();
     }
-
-    
 }
